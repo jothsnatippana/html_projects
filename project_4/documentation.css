@@ -1,0 +1,62 @@
+#nav-bar
+{
+  font-size:20px;
+}
+#header
+{
+  font-size:30px;
+}
+#second
+{
+   font-size:30px;
+}
+#third
+{
+  font-size:30px;
+}
+#fourth
+{
+  font-size:30px;
+}
+#fifth
+{
+  font-size:30px;
+}#sixth
+{
+  font-size:30px;
+}#seventh
+{
+  font-size:30px;
+}#eighth
+{
+  font-size:30px;
+}#nineth
+{
+  font-size:30px;
+}#tenth
+{
+  font-size:30px;
+}#eleven
+{
+  font-size:30px;
+}#twelve
+{
+  font-size:30px;
+}#thirteen
+{
+  font-size:30px;
+}#fourteen
+{
+  font-size:30px;
+}
+#navbar {
+  position: fixed;
+}
+section.main-section
+{
+  margin-left:14%;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
