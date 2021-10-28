@@ -1,0 +1,28 @@
+ #main
+    {
+      background-color:#87ceeb;
+      border-radius: 15px;
+    }
+    #title
+    {
+      text-align:center;
+      background-color:#87ceeb;
+    }
+    #description
+    {
+      text-align:center;
+      font-size:20px;
+    }
+    #form
+    {
+      background-color:#FFB6C1;
+      margin-left:20%;
+      margin-right:20%;
+      border-radius: 15px
+    }
+    #survey-form
+    {
+      margin-left:30%;
+      font-size:18px;
+    }
+
