@@ -1,0 +1,65 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+  <div id="main">
+  <h1 id="title" > Free code camp survey</h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform </p>
+    
+  <div id="form">
+  <form id="survey-form">
+    <div>
+    <label for='name' id='name-label'><strong>                Name: </strong> </label><br> 
+    <input            
+      type="text" required                                    id="name" name="user_name"size="40"
+      style="border-radius:5px;font-size:15px;" 
+      placeholder="enter the name">
+    </div>
+    <div>
+    <label for="email" id="email-label" ><strong>            Email:</strong></label><br>
+    <input type="email"id="email"name="email"
+         size="40" style="border-radius:5px;font-         size:15px;"  placeholder="enter the email"         pattern=".+gmail.com" required>
+    </div>
+    <div>
+   <label for="number" id="number-label" ><strong>           Mobile Number:</strong></label><br>
+   <input type="number"  id="number" name="number"size="10" min='1' max='9' 
+     style="border-radius: 5px;font-size:15px;"
+       placeholder="phone number" required >
+    </div>
+    <div>
+    <label for=""><strong>what is your favourite              feature in freecodecamp?</strong><br>
+    <input list="dropdown" style="border-radius:              5px;" placeholder="select an option"
+           required >
+    <datalist id="dropdown">
+      <option value="challenges">
+        <option value="community">
+          <option value="projects">
+        <option value="opensource">
+    </datalist>
+      </div>
+      <div>
+     <label for="" id="radio" ><strong> select          your current role:</strong></label><br>
+     <input type="radio"  name="radio" value="student">student
+     <br>
+     <input type="radio"  name="radio" value="employee">employee
+     <br>
+    <input type="radio"name="radio"value="business            man">business man<br>
+     <input type="radio" name="radio" value="professor">professor
+     <br>
+     <input type="radio" name="radio" value="other">other
+     <br>
+      </div>
+      <div>
+      <label for = '' id = 'contact'>which course do you like most?</label><br/>
+      <input class = 'checkbox' type = 'checkbox' name = 'course' value = 'HTML' checked>HTML<br>
+      <input class = 'checkbox' type = 'checkbox' name = 'course' value = 'JS' checked>JS<br>
+      <input class = 'checkbox' type = 'checkbox' name = 'course' value = 'CSS' checked>CSS<br>
+      <input class = 'checkbox' type = 'checkbox' name = 'course' value = 'PHP' checked>PHP
+ </div>
+   <div>
+     <label for="" ><strong> comments/suggestions:</strong></label> <br>
+     <textarea  placeholder = 'type a message in 200 characters or less'></textarea>
+  </div>
+      <button type="submit" id="submit">submit</button>
+      </form>
+  </div>
+</body>
+  
